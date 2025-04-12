@@ -7,6 +7,12 @@ from src.models.train_model import train_model
 from src.models.predict_model import evaluate_model
 from src.models.visualization import plot_residuals
 from sklearn.preprocessing import MinMaxScaler
+with open("README.md", "r") as f:
+    readme_content = f.read()
+
+st.markdown("---")
+st.markdown("## 📖 About This App")
+st.markdown(readme_content, unsafe_allow_html=True)
 
 st.title("🎓 UCLA Admission Chance Predictor")
 

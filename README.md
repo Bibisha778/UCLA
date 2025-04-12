@@ -1,4 +1,5 @@
 # 🎓 UCLA Admission Chance Predictor
+link to app = "https://vutczzg62thkvq3hny8beu.streamlit.app/"
 
 Estimate a student’s chance of admission to UCLA using GRE, TOEFL, CGPA, and research experience via a neural network.
 

@@ -10,10 +10,6 @@ from sklearn.preprocessing import MinMaxScaler
 with open("README.md", "r") as f:
     readme_content = f.read()
 
-st.markdown("---")
-st.markdown("## 📖 About This App")
-st.markdown(readme_content, unsafe_allow_html=True)
-
 st.title("🎓 UCLA Admission Chance Predictor")
 
 model, scaler = None, None
